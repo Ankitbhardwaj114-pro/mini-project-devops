@@ -1,0 +1,23 @@
+# Ignore node modules to avoid copying them into the Docker image
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignore local development environment files
+.env
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore git repository files
+.git
+.gitignore
+
+# Ignore editor and IDE configuration
+.vscode
+.idea
+
+# Ignore any Docker files not needed in the image
+docker-compose.yml
+Dockerfile*
